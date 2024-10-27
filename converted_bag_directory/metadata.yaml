@@ -1,0 +1,120 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: {}
+  duration:
+    nanoseconds: 34696489140
+  files:
+  - duration:
+      nanoseconds: 34696489140
+    message_count: 435
+    path: converted_bag_directory.db3
+    starting_time:
+      nanoseconds_since_epoch: 1699022494433736128
+  message_count: 435
+  relative_file_paths:
+  - converted_bag_directory.db3
+  ros_distro: rosbags
+  starting_time:
+    nanoseconds_since_epoch: 1699022494433736128
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 13
+    topic_metadata:
+      name: /rosout
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: rosgraph_msgs/msg/Log
+      type_description_hash: RIHS01_b5b2c2cc0b32a8673810d3d77306a22cf8667a40ddbd92214b9d73dfd483b729
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/navpvt
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: ublox_msgs/msg/NavPVT
+      type_description_hash: RIHS01_81dc17faebf946cc6a01be6f344fdca8e58ec7d13b49a127e8e1d32b3668c9c7
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/fix
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/NavSatFix
+      type_description_hash: RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/fix_velocity
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: geometry_msgs/msg/TwistWithCovarianceStamped
+      type_description_hash: RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563
+  - message_count: 35
+    topic_metadata:
+      name: /diagnostics
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: diagnostic_msgs/msg/DiagnosticArray
+      type_description_hash: RIHS01_5a8a36efb05fb25070fa0fb3810290c0e6cd4862b54a8fb975a1ee8dc55a333e
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/navhpposecef
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: ublox_msgs/msg/NavHPPOSECEF
+      type_description_hash: RIHS01_e1b4f2e7a50b82f54dd5633de44eb14f129eb0e760758ab41c1ccd13238a5f48
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/navhpposllh
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: ublox_msgs/msg/NavHPPOSLLH
+      type_description_hash: RIHS01_3f2051cb4b97aeae8f2d3ff292b97e0a23460d3867ce722686d233c496ebe2ee
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/hp_fix
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/NavSatFix
+      type_description_hash: RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/navposecef
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: ublox_msgs/msg/NavPOSECEF
+      type_description_hash: RIHS01_71d6e1dbbf57734c0ebde612eb4533652e846dc3271213d42d07fc86574826c6
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/navstatus
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: ublox_msgs/msg/NavSTATUS
+      type_description_hash: RIHS01_5ebe4ddd8c5ac51bc705877ae6715ccd82e2d1e486657071660e6a1305505d71
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/navclock
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: ublox_msgs/msg/NavCLOCK
+      type_description_hash: RIHS01_3348ddadcb308f7bba6b291c263a1640c76ec7dc2688460b729df36554718994
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/navheading
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Imu
+      type_description_hash: RIHS01_7d9a00ff131080897a5ec7e26e315954b8eae3353c3f995c55faf71574000b5b
+  - message_count: 35
+    topic_metadata:
+      name: /ublox/navrelposned
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: ublox_msgs/msg/NavRELPOSNED9
+      type_description_hash: RIHS01_da6cfa71ad09cb198d596e29ba50489d25d2987df58337d902259f9457687918
+  - message_count: 2
+    topic_metadata:
+      name: /ublox/navsat
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: ublox_msgs/msg/NavSAT
+      type_description_hash: RIHS01_67444bfb901f13c13bbcfdf0de767a897f9e2b79cb8a22cf1063929c2b9a13c0
+  version: 8
